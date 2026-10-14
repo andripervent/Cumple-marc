@@ -10,11 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!wishPrompt) return;
 
-  const wishPrompts = [
-    "Before we finish...",
-    "Close your eyes.",
-    "Make a birthday wish.",
-    "When you're ready..."
+  
+const wishPrompts = [
+  "Abans d'acabar...",
+  "Tanca els ulls.",
+  "Demana un desig.",
+  "Quan estiguis a punt..."
   ];
 
   let promptIndex = 0;
