@@ -1,70 +1,74 @@
-const BirthdayConfig = {
-  // Global Settings
-  birthdayPersonName: "Princess",
-  musicUrl: "0628.MP3", // Custom soundtrack file
-  voiceNoteUrl: "", // Optional voice note audio file path (e.g. "assets/audio/voice.mp3")
 
-  // Chapter 2 - Memory Hunt Settings
-  correctGiftIndex: 2, // 0-4 index of correct box
+const BirthdayConfig = {
+  // Configuració general
+  birthdayPersonName: "Marc",
+  musicUrl: "",
+  voiceNoteUrl: "",
+
+  // Capítol 2 - Joc de trobar el regal
+  correctGiftIndex: 2,
   wrongGiftMessages: [
-    "Not this one",
-    "Try again princess",
-    "Almost there",
-    "Keep looking"
+    "Ui, aquest no és! 😂",
+    "Torna-ho a provar, Marc ❤️",
+    "Gairebé ho tens...",
+    "No et rendeixis ara! 😉"
   ],
 
-  // Chapter 3 - Our Story Timeline Settings
+  // Capítol 3 - La nostra història
   storyTimeline: [
     {
-      title: "✨ The first conversation",
-      text: "The beginning was simple, but somehow it stayed. One message, one smile, one tiny moment that became special.",
+      title: "✨ El principi de tot",
+      text: "Qui m'hauria dit que, a poc a poc, et convertires en algú tan especial per a mi? ❤️",
       photo: "story/story_1.jpg"
     },
     {
-      title: "🌸 The first laugh",
-      text: "That one memory that still makes me laugh whenever I think about it. Some joy does not expire.",
+      title: "😂 Les nostres bogeries",
+      text: "Perquè amb tu sempre hi ha alguna cosa per riure, alguna tonteria per recordar i algun motiu per acabar rient-nos de nosaltres mateixos.",
       photo: "story/story_2.jpg"
     },
     {
-      title: "📸 Favorite memory",
-      text: "A little frame of time I would keep forever. A moment frozen in time that makes me smile every single time.",
+      title: "📸 Un record dels nostres",
+      text: "Hi ha moments que potser semblen normals, però que es tornen especials simplement perquè els compartisc amb tu.",
       photo: "story/story_3.jpg"
     },
     {
-      title: "😂 The funniest moment",
-      text: "The absolute funniest thing we shared. Let's keep making goofy memories together.",
+      title: "❤️ I tots els que ens queden",
+      text: "Si una cosa tinc clara, és que encara ens queden moltes històries per viure, llocs per descobrir i moments per guardar.",
       photo: "story/story_4.jpg"
-    },
-    {
-      title: "❤️ A day I'll never forget",
-      text: "The kind of memory that feels soft in the heart, like it was made to be remembered on difficult days.",
-      photo: "story/story_5.jpg"
-    },
-    {
-      title: "🌙 Today",
-      text: "Today is about you. Your heart, your smile, your presence, and the quiet light you bring into this world.",
-      photo: "story/story_6.jpg"
     }
   ],
 
-  // Chapter 4 - Birthday Letter Settings
-  letterText: "Happy birthday, my love. I hope this little surprise feels like a warm hug through the screen. You make ordinary days softer, small moments brighter, and life feel a little more magical. I wanted you to have something that was not rushed, not random, and not just another birthday wish. Something made only for you. Today, I hope you feel deeply loved, gently celebrated, and reminded that your existence matters more than words can fully hold.",
-  letterSignature: "With all my heart",
+  // Capítol 4 - La carta d'aniversari
+  letterText: "Feliç aniversari, Marc! ❤️ Hui és el teu dia, i volia preparar-te alguna cosa especial. Una xicoteta sorpresa feta amb estima, amb un poc de romanticisme i alguna tonteria, perquè les coses massa serioses tampoc van amb nosaltres. Espere que aquest nou any et porte moltes alegries, nous records i mil motius per somriure. I espere poder continuar compartint amb tu molts d'aquests moments. T'estime molt!",
+  letterSignature: "Amb tot el meu amor ❤️",
 
-  // Chapter 5 - Surprise Box Settings
+  // Capítol 5 - Caixa sorpresa
   floatingMemories: [
-    { caption: "Your smile ✨", photo: "surprise/your_smile.jpg" },
-    { caption: "That day 📸", photo: "surprise/that_day.jpg" },
-    { caption: "Us ❤️", photo: "surprise/us.jpg" },
-    { caption: "Always 🌙", photo: "surprise/always.jpg" }
+    {
+      caption: "Eixa sonrisa teua ❤️",
+      photo: "surprise/your_smile.jpg"
+    },
+    {
+      caption: "Un dels nostres moments 📸",
+      photo: "surprise/that_day.jpg"
+    },
+    {
+      caption: "Tu i jo 🫶",
+      photo: "surprise/us.jpg"
+    },
+    {
+      caption: "Per molts més moments 🌙",
+      photo: "surprise/always.jpg"
+    }
   ],
 
-  // Chapter 6 - Ending Text Sequence
+  // Capítol 6 - Missatge final
   endingLines: [
-    "One last thing...",
-    "Thank you for existing.",
-    "Happy Birthday ❤️",
-    "The gift was never this website...",
-    "It was the smile I hoped it would bring to you."
+    "I encara em queda una última cosa...",
+    "Gràcies per ser com eres. ❤️",
+    "Per molts anys, Marc! 🎂",
+    "El millor regal no és aquesta web...",
+    "És poder continuar creant records amb tu. ❤️"
   ]
 };
+
