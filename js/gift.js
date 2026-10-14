@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ui, aquest no és! 😂",
           "Torna-ho a provar, Marc ❤️",
           "Gairebé ho tens...",
-          "No et rendisques ara! 😉"
+          "No et rendeixis ara! 😉"
         ];
 
   const wrongMessages = [
