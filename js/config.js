@@ -28,7 +28,7 @@ const BirthdayConfig = {
     },
     {
       title: "📸 Un record dels nostres",
-      text: "Hi ha moments que potser semblen normals, però que es tornen especials simplement perquè els compartisc amb tu.",
+      text: "Hi ha moments que potser semblen normals, però que es tornen especials simplement perquè els comparteixo amb tu.",
       photo: "story/story_3.jpg"
     },
     {
@@ -39,13 +39,26 @@ const BirthdayConfig = {
   ],
 
   // Capítol 4 - La carta d'aniversari
-  letterText: "Feliç aniversari, Marc! ❤️ Hui és el teu dia, i volia preparar-te alguna cosa especial. Una xicoteta sorpresa feta amb estima, amb un poc de romanticisme i alguna tonteria, perquè les coses massa serioses tampoc van amb nosaltres. Espere que aquest nou any et porte moltes alegries, nous records i mil motius per somriure. I espere poder continuar compartint amb tu molts d'aquests moments. T'estime molt!",
-  letterSignature: "Amb tot el meu amor ❤️",
+  letterText: `Feliç aniversari, Marc! ❤️
+
+M'encanta passar temps amb tu, riure amb tu i poder compartir estones que sempre se'm fan curtes. M'agrada que amb tu tot sigui tan fàcil, que puguem parlar de qualsevol cosa, escoltar-nos i entendre'ns tan bé. Em fas feliç, em fas riure moltíssim i m'encanta la tranquil·litat que em transmets, però també totes les tonteries que acabem fent junts.
+
+M'encanta la manera com vius les coses, la confiança que tens en tu mateix i les ganes que tens de gaudir de la vida i d'anar a buscar allò que vols.
+
+Tinc moltes ganes de continuar compartint moments amb tu, de fer viatges, descobrir llocs, riure'ns de qualsevol tonteria i veure totes les coses que ens queden per viure.
+
+Això sí, espero que aquest any et porti moltes coses bones, molts viatges i moltes alegries... i, si pot ser, una mica menys de dolors inexplicables 😂. Encara que jo tampoc estic per parlar gaire, que em desmonto...
+
+Espero que avui et sentis molt estimat, que gaudeixis molt del teu dia i que aquest any et porti tot allò que et faci feliç. I espero poder continuar sent part de moltes d'aquestes coses.
+
+T'estimo molt, i tinc moltes ganes de continuar omplint-te de petons, abraçades i records bonics. 🤍,
+
+  letterSignature: Besitos🤍,
 
   // Capítol 5 - Caixa sorpresa
   floatingMemories: [
     {
-      caption: "Eixa sonrisa teua ❤️",
+      caption: "Aquest somriure teu 🤍",
       photo: "surprise/your_smile.jpg"
     },
     {
@@ -65,10 +78,10 @@ const BirthdayConfig = {
   // Capítol 6 - Missatge final
   endingLines: [
     "I encara em queda una última cosa...",
-    "Gràcies per ser com eres. ❤️",
+    "Gràcies per ser com ets. 🤍",
     "Per molts anys, Marc! 🎂",
     "El millor regal no és aquesta web...",
-    "És poder continuar creant records amb tu. ❤️"
+    "És poder continuar creant records amb tu. 🤍"
   ]
 };
 
